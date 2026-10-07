@@ -1,0 +1,17 @@
+{
+  "runtime/rushmarine/src/com/wakka/rushbridge/runtime/BrewRuntime.java": "be3c21d2b70e1935a9eb5ccab9564c82862e18517ccf8291bf10830542e29721",
+  "runtime/rushmarine/src/com/wakka/rushbridge/BrewSurfaceView.java": "3b4807ae73c4beb73e9fd6b6e2f4b3ba2e6c466a9a5bada99ff73c6744097bd6",
+  "runtime/rushmarine/src/com/wakka/rushbridge/Ui.java": "29304b50e905e699048a6d506070c5f610aa10a55a5226e322557541773e6a39",
+  "shared/src/com/wakka/bridge/BridgeBackend.java": "3bd3ffeb6e4da4f300f905981fd877eb91922e1c17e1b26e92616abe360540da",
+  "shared/src/com/wakka/bridge/BridgeGameActivity.java": "5a858cfc800699a37b43dda97a0c24c4df04945c5642fc17f4b1d7305e7aa857",
+  "shared/src/com/wakka/bridge/BridgeLauncherActivity.java": "94003d794b2b5b77602fecf76b77cfe1e3a795d7fccd2ba563dfdfe56372bb1f",
+  "shared/src/com/wakka/bridge/BridgeReportActivity.java": "1c7e3613e57c2c72439fb9388bf34f4c9bd80602d5718b5bfe3553aa460bba0a",
+  "shared/src/com/wakka/bridge/BridgeToolsActivity.java": "e5ee8c042dc193115405474c5412a3c4f003177110ae71b08811c075435368df",
+  "shared/src/com/wakka/bridge/BridgeUi.java": "72aa65e512dbf9b0797040d7c67a2abc076ef90a96b2ade5ad90cf90690768f6",
+  "shared/src/com/wakka/bridge/GameSpec.java": "187ac36c2eb51a0178c318f01a65d3ba08272f62365da5a443c770579eb8e279",
+  "shared/src/com/wakka/bridge/InputLatch.java": "75ec22c4b22dc2d19e5e69bc4053e5397b56b00639b0fee2c05e224c5716de85",
+  "shared/src/com/wakka/bridge/KeypadView.java": "1a1419fdee48d0df015e08221285ba6f47702e85cf22264b33482a39e74c2ff4",
+  "shared/src/com/wakka/bridge/ReportProvider.java": "321e6b7583969ecd7ac16f2677e1bcb101a54e79e5e3a5b61bf30a3954e78d31",
+  "shared/src/com/wakka/bridge/ReportStore.java": "691bc6f9ccf1795d05a390b2a9dc80f934f77f9e53ed62142756d7f9230dfd6c",
+  "shared/src/com/wakka/bridge/SessionGate.java": "783f61eaf8c6886a176bef5db55f33de2dfaa666a3db3fd0839b0b00cb0d841d"
+}

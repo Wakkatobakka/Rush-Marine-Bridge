@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "artifact": "Rush Marine Bridge",
+  "app_version": "0.1.2",
+  "shared_version": "0.1.1",
+  "runtime_baseline": "0.0.10",
+  "package": "com.wakka.omnibridge.rushmarine",
+  "primary_device": "Samsung S25 Ultra / Android 16 / API36",
+  "host_check": "python3 tools/check.py",
+  "phone_validation": "pending"
+}

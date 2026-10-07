@@ -1,0 +1,343 @@
+PASS: preserved runtime/shared source runtime/rushmarine/src/com/wakka/rushbridge/runtime/BrewRuntime.java
+PASS: preserved runtime/shared source runtime/rushmarine/src/com/wakka/rushbridge/BrewSurfaceView.java
+PASS: preserved runtime/shared source runtime/rushmarine/src/com/wakka/rushbridge/Ui.java
+PASS: preserved runtime/shared source shared/src/com/wakka/bridge/BridgeBackend.java
+PASS: preserved runtime/shared source shared/src/com/wakka/bridge/BridgeGameActivity.java
+PASS: preserved runtime/shared source shared/src/com/wakka/bridge/BridgeLauncherActivity.java
+PASS: preserved runtime/shared source shared/src/com/wakka/bridge/BridgeReportActivity.java
+PASS: preserved runtime/shared source shared/src/com/wakka/bridge/BridgeToolsActivity.java
+PASS: preserved runtime/shared source shared/src/com/wakka/bridge/BridgeUi.java
+PASS: preserved runtime/shared source shared/src/com/wakka/bridge/GameSpec.java
+PASS: preserved runtime/shared source shared/src/com/wakka/bridge/InputLatch.java
+PASS: preserved runtime/shared source shared/src/com/wakka/bridge/KeypadView.java
+PASS: preserved runtime/shared source shared/src/com/wakka/bridge/ReportProvider.java
+PASS: preserved runtime/shared source shared/src/com/wakka/bridge/ReportStore.java
+PASS: preserved runtime/shared source shared/src/com/wakka/bridge/SessionGate.java
+PASS: same Omni update package
+PASS: increased versionCode / release version
+PASS: no network or broad-storage permissions
+PASS: private activity com.wakka.omnirushmarine.GameActivity
+PASS: private activity com.wakka.omnirushmarine.ToolsActivity
+PASS: private activity com.wakka.rushbridge.VaultActivity
+PASS: private activity com.wakka.omnirushmarine.LauncherActivity
+PASS: private report provider
+PASS: APK fingerprint app/src/com/wakka/omnirushmarine/GameActivity.java
+PASS: APK fingerprint app/src/com/wakka/omnirushmarine/LauncherActivity.java
+PASS: APK fingerprint app/src/com/wakka/omnirushmarine/RushCatalog.java
+PASS: APK fingerprint app/src/com/wakka/omnirushmarine/ToolsActivity.java
+PASS: APK fingerprint profiles/rushmarine/src/com/wakka/rushbridge/BrewBackend.java
+PASS: APK fingerprint profiles/rushmarine/src/com/wakka/rushbridge/BrewInputRouter.java
+PASS: APK fingerprint profiles/rushmarine/src/com/wakka/rushbridge/BrewPayload.java
+PASS: APK fingerprint profiles/rushmarine/src/com/wakka/rushbridge/RushColors.java
+PASS: APK fingerprint profiles/rushmarine/src/com/wakka/rushbridge/RushControls.java
+PASS: APK fingerprint profiles/rushmarine/src/com/wakka/rushbridge/VerifiedZipStore.java
+PASS: APK fingerprint runtime/rushmarine/src/com/wakka/rushbridge/BrewSurfaceView.java
+PASS: APK fingerprint runtime/rushmarine/src/com/wakka/rushbridge/RuntimeRunner.java
+PASS: APK fingerprint runtime/rushmarine/src/com/wakka/rushbridge/Ui.java
+PASS: APK fingerprint runtime/rushmarine/src/com/wakka/rushbridge/VaultActivity.java
+PASS: APK fingerprint runtime/rushmarine/src/com/wakka/rushbridge/runtime/BrewRuntime.java
+PASS: APK fingerprint shared/src/com/wakka/bridge/BridgeBackend.java
+PASS: APK fingerprint shared/src/com/wakka/bridge/BridgeGameActivity.java
+PASS: APK fingerprint shared/src/com/wakka/bridge/BridgeLauncherActivity.java
+PASS: APK fingerprint shared/src/com/wakka/bridge/BridgeReportActivity.java
+PASS: APK fingerprint shared/src/com/wakka/bridge/BridgeToolsActivity.java
+PASS: APK fingerprint shared/src/com/wakka/bridge/BridgeUi.java
+PASS: APK fingerprint shared/src/com/wakka/bridge/GameSpec.java
+PASS: APK fingerprint shared/src/com/wakka/bridge/InputLatch.java
+PASS: APK fingerprint shared/src/com/wakka/bridge/KeypadView.java
+PASS: APK fingerprint shared/src/com/wakka/bridge/ReportProvider.java
+PASS: APK fingerprint shared/src/com/wakka/bridge/ReportStore.java
+PASS: APK fingerprint shared/src/com/wakka/bridge/SessionGate.java
+PASS: APK fingerprint app/res/drawable-nodpi/rush_icon.png
+PASS: APK fingerprint app/res/drawable-nodpi/rush_logo.png
+PASS: APK fingerprint app/res/values/strings.xml
+PASS: APK fingerprint app/res/values/styles.xml
+PASS: APK fingerprint app/assets/art/rush_icon.png
+PASS: APK fingerprint app/assets/art/rush_logo.png
+PASS: no original game code passed to D8
+PASS: APK manifest/project provenance
+PASS: APK source build identity
+PASS: APK excludes game/signing file AndroidManifest.xml
+PASS: APK contains no renamed original payload AndroidManifest.xml
+PASS: APK excludes game/signing file assets/art/rush_icon.png
+PASS: APK contains no renamed original payload assets/art/rush_icon.png
+PASS: APK excludes game/signing file assets/art/rush_logo.png
+PASS: APK contains no renamed original payload assets/art/rush_logo.png
+PASS: APK excludes game/signing file assets/bridge-build.json
+PASS: APK contains no renamed original payload assets/bridge-build.json
+PASS: APK excludes game/signing file res/drawable-nodpi-v4/rush_icon.png
+PASS: APK contains no renamed original payload res/drawable-nodpi-v4/rush_icon.png
+PASS: APK excludes game/signing file res/drawable-nodpi-v4/rush_logo.png
+PASS: APK contains no renamed original payload res/drawable-nodpi-v4/rush_logo.png
+PASS: APK excludes game/signing file resources.arsc
+PASS: APK contains no renamed original payload resources.arsc
+PASS: APK excludes game/signing file classes.dex
+PASS: APK contains no renamed original payload classes.dex
+PASS: APK excludes game/signing file META-INF/WAKKAN-O.SF
+PASS: APK contains no renamed original payload META-INF/WAKKAN-O.SF
+PASS: APK excludes game/signing file META-INF/WAKKAN-O.RSA
+PASS: APK contains no renamed original payload META-INF/WAKKAN-O.RSA
+PASS: APK excludes game/signing file META-INF/MANIFEST.MF
+PASS: APK contains no renamed original payload META-INF/MANIFEST.MF
+PASS: no embedded BREW data in APK
+PASS: runtime uses verified imported files
+PASS: runtime has no embedded-game fallback
+PASS: single MIDI arbitration retained
+PASS: timer/audio pause gates retained
+PASS: reports/menu do not reboot the guest
+PASS: play readiness verifies imported game data
+PASS: flexible non-scrolling gameplay stage
+PASS: Copy keeps full captured report
+PASS: public source excludes payload/key AGENTS.md
+PASS: public source contains no renamed original payload AGENTS.md
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key expected-brew-files.json
+PASS: public source contains no renamed original payload expected-brew-files.json
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key bridge-project.json
+PASS: public source contains no renamed original payload bridge-project.json
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key .gitignore
+PASS: public source contains no renamed original payload .gitignore
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key README.md
+PASS: public source contains no renamed original payload README.md
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key THIRD-PARTY-NOTICES.txt
+PASS: public source contains no renamed original payload THIRD-PARTY-NOTICES.txt
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key BUILD_LINUX.sh
+PASS: public source contains no renamed original payload BUILD_LINUX.sh
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key app/AndroidManifest.xml
+PASS: public source contains no renamed original payload app/AndroidManifest.xml
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key verification/HostBootProbe.txt
+PASS: public source contains no renamed original payload verification/HostBootProbe.txt
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key verification/BUILD_v0.1.2.txt
+PASS: public source contains no renamed original payload verification/BUILD_v0.1.2.txt
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key verification/HOST_CHECKS_v0.1.2.txt
+PASS: public source contains no renamed original payload verification/HOST_CHECKS_v0.1.2.txt
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key verification/PUBLIC_CHECKS_v0.1.2.txt
+PASS: public source contains no renamed original payload verification/PUBLIC_CHECKS_v0.1.2.txt
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key verification/Rush_Marine_Bridge_v0.1.2_Verification.txt
+PASS: public source contains no renamed original payload verification/Rush_Marine_Bridge_v0.1.2_Verification.txt
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key verification/ControlMappingProbe.txt
+PASS: public source contains no renamed original payload verification/ControlMappingProbe.txt
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key verification/AudioBridgeProbe.txt
+PASS: public source contains no renamed original payload verification/AudioBridgeProbe.txt
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key verification/VERIFICATION_v0.1.2.md
+PASS: public source contains no renamed original payload verification/VERIFICATION_v0.1.2.md
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key verification/LiveInputProbe.txt
+PASS: public source contains no renamed original payload verification/LiveInputProbe.txt
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key verification/AudioTransitionProbe.txt
+PASS: public source contains no renamed original payload verification/AudioTransitionProbe.txt
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key verification/GuestSnapshotChecks.txt
+PASS: public source contains no renamed original payload verification/GuestSnapshotChecks.txt
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key verification/RELEASE_IDENTITY_v0.1.2.json
+PASS: public source contains no renamed original payload verification/RELEASE_IDENTITY_v0.1.2.json
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key tests/BehaviorChecks.java
+PASS: public source contains no renamed original payload tests/BehaviorChecks.java
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key tests/GuestSnapshotChecks.java
+PASS: public source contains no renamed original payload tests/GuestSnapshotChecks.java
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key tests/PayloadImportChecks.java
+PASS: public source contains no renamed original payload tests/PayloadImportChecks.java
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key tests/RealPayloadImportProbe.java
+PASS: public source contains no renamed original payload tests/RealPayloadImportProbe.java
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key payload-builder/README.txt
+PASS: public source contains no renamed original payload payload-builder/README.txt
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key payload-builder/RUN-GAME-DATA-ZIP-HELPER-WINDOWS.bat
+PASS: public source contains no renamed original payload payload-builder/RUN-GAME-DATA-ZIP-HELPER-WINDOWS.bat
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key payload-builder/expected-brew-files.json
+PASS: public source contains no renamed original payload payload-builder/expected-brew-files.json
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key payload-builder/build_payload.py
+PASS: public source contains no renamed original payload payload-builder/build_payload.py
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key tools/check.py
+PASS: public source contains no renamed original payload tools/check.py
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key tools/build.py
+PASS: public source contains no renamed original payload tools/build.py
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key docs/MIGRATION_NOTES.md
+PASS: public source contains no renamed original payload docs/MIGRATION_NOTES.md
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key docs/RELEASE_NOTES_v0.1.2.md
+PASS: public source contains no renamed original payload docs/RELEASE_NOTES_v0.1.2.md
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key docs/RELEASE_NOTES_v0.1.1.md
+PASS: public source contains no renamed original payload docs/RELEASE_NOTES_v0.1.1.md
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key docs/Rush_Marine_Bridge_GitHub.jpg
+PASS: public source contains no renamed original payload docs/Rush_Marine_Bridge_GitHub.jpg
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key docs/RELEASE_BODY_v0.1.2.md
+PASS: public source contains no renamed original payload docs/RELEASE_BODY_v0.1.2.md
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key docs/ARCHITECTURE.md
+PASS: public source contains no renamed original payload docs/ARCHITECTURE.md
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key docs/RELEASE_BODY_v0.1.1.md
+PASS: public source contains no renamed original payload docs/RELEASE_BODY_v0.1.1.md
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key docs/GAME_DATA.md
+PASS: public source contains no renamed original payload docs/GAME_DATA.md
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key docs/DEVELOPMENT_HISTORY.md
+PASS: public source contains no renamed original payload docs/DEVELOPMENT_HISTORY.md
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key docs/BUILDING.md
+PASS: public source contains no renamed original payload docs/BUILDING.md
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key baseline/runtime-source-sha256.json
+PASS: public source contains no renamed original payload baseline/runtime-source-sha256.json
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key TESTING/TEST_PROFILE.json
+PASS: public source contains no renamed original payload TESTING/TEST_PROFILE.json
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key TESTING/ACCEPTANCE_TESTS.md
+PASS: public source contains no renamed original payload TESTING/ACCEPTANCE_TESTS.md
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key shared/src/com/wakka/bridge/ReportStore.java
+PASS: public source contains no renamed original payload shared/src/com/wakka/bridge/ReportStore.java
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key shared/src/com/wakka/bridge/BridgeLauncherActivity.java
+PASS: public source contains no renamed original payload shared/src/com/wakka/bridge/BridgeLauncherActivity.java
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key shared/src/com/wakka/bridge/BridgeUi.java
+PASS: public source contains no renamed original payload shared/src/com/wakka/bridge/BridgeUi.java
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key shared/src/com/wakka/bridge/BridgeToolsActivity.java
+PASS: public source contains no renamed original payload shared/src/com/wakka/bridge/BridgeToolsActivity.java
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key shared/src/com/wakka/bridge/BridgeGameActivity.java
+PASS: public source contains no renamed original payload shared/src/com/wakka/bridge/BridgeGameActivity.java
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key shared/src/com/wakka/bridge/BridgeBackend.java
+PASS: public source contains no renamed original payload shared/src/com/wakka/bridge/BridgeBackend.java
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key shared/src/com/wakka/bridge/SessionGate.java
+PASS: public source contains no renamed original payload shared/src/com/wakka/bridge/SessionGate.java
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key shared/src/com/wakka/bridge/BridgeReportActivity.java
+PASS: public source contains no renamed original payload shared/src/com/wakka/bridge/BridgeReportActivity.java
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key shared/src/com/wakka/bridge/GameSpec.java
+PASS: public source contains no renamed original payload shared/src/com/wakka/bridge/GameSpec.java
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key shared/src/com/wakka/bridge/ReportProvider.java
+PASS: public source contains no renamed original payload shared/src/com/wakka/bridge/ReportProvider.java
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key shared/src/com/wakka/bridge/InputLatch.java
+PASS: public source contains no renamed original payload shared/src/com/wakka/bridge/InputLatch.java
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key shared/src/com/wakka/bridge/KeypadView.java
+PASS: public source contains no renamed original payload shared/src/com/wakka/bridge/KeypadView.java
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key app/assets/bridge-build.json
+PASS: public source contains no renamed original payload app/assets/bridge-build.json
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key app/artwork/bridge-symbol.svg
+PASS: public source contains no renamed original payload app/artwork/bridge-symbol.svg
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key app/res/drawable-nodpi/rush_icon.png
+PASS: public source contains no renamed original payload app/res/drawable-nodpi/rush_icon.png
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key app/res/drawable-nodpi/rush_logo.png
+PASS: public source contains no renamed original payload app/res/drawable-nodpi/rush_logo.png
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key app/res/values/strings.xml
+PASS: public source contains no renamed original payload app/res/values/strings.xml
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key app/res/values/styles.xml
+PASS: public source contains no renamed original payload app/res/values/styles.xml
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key app/src/com/wakka/omnirushmarine/GameActivity.java
+PASS: public source contains no renamed original payload app/src/com/wakka/omnirushmarine/GameActivity.java
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key app/src/com/wakka/omnirushmarine/RushCatalog.java
+PASS: public source contains no renamed original payload app/src/com/wakka/omnirushmarine/RushCatalog.java
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key app/src/com/wakka/omnirushmarine/ToolsActivity.java
+PASS: public source contains no renamed original payload app/src/com/wakka/omnirushmarine/ToolsActivity.java
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key app/src/com/wakka/omnirushmarine/LauncherActivity.java
+PASS: public source contains no renamed original payload app/src/com/wakka/omnirushmarine/LauncherActivity.java
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key app/assets/art/rush_icon.png
+PASS: public source contains no renamed original payload app/assets/art/rush_icon.png
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key app/assets/art/rush_logo.png
+PASS: public source contains no renamed original payload app/assets/art/rush_logo.png
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key runtime/rushmarine/src/com/wakka/rushbridge/VaultActivity.java
+PASS: public source contains no renamed original payload runtime/rushmarine/src/com/wakka/rushbridge/VaultActivity.java
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key runtime/rushmarine/src/com/wakka/rushbridge/Ui.java
+PASS: public source contains no renamed original payload runtime/rushmarine/src/com/wakka/rushbridge/Ui.java
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key runtime/rushmarine/src/com/wakka/rushbridge/BrewSurfaceView.java
+PASS: public source contains no renamed original payload runtime/rushmarine/src/com/wakka/rushbridge/BrewSurfaceView.java
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key runtime/rushmarine/src/com/wakka/rushbridge/RuntimeRunner.java
+PASS: public source contains no renamed original payload runtime/rushmarine/src/com/wakka/rushbridge/RuntimeRunner.java
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key runtime/rushmarine/src/com/wakka/rushbridge/runtime/BrewRuntime.java
+PASS: public source contains no renamed original payload runtime/rushmarine/src/com/wakka/rushbridge/runtime/BrewRuntime.java
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key profiles/rushmarine/src/com/wakka/rushbridge/RushControls.java
+PASS: public source contains no renamed original payload profiles/rushmarine/src/com/wakka/rushbridge/RushControls.java
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key profiles/rushmarine/src/com/wakka/rushbridge/VerifiedZipStore.java
+PASS: public source contains no renamed original payload profiles/rushmarine/src/com/wakka/rushbridge/VerifiedZipStore.java
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key profiles/rushmarine/src/com/wakka/rushbridge/BrewBackend.java
+PASS: public source contains no renamed original payload profiles/rushmarine/src/com/wakka/rushbridge/BrewBackend.java
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key profiles/rushmarine/src/com/wakka/rushbridge/RushColors.java
+PASS: public source contains no renamed original payload profiles/rushmarine/src/com/wakka/rushbridge/RushColors.java
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key profiles/rushmarine/src/com/wakka/rushbridge/BrewPayload.java
+PASS: public source contains no renamed original payload profiles/rushmarine/src/com/wakka/rushbridge/BrewPayload.java
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key profiles/rushmarine/src/com/wakka/rushbridge/BrewInputRouter.java
+PASS: public source contains no renamed original payload profiles/rushmarine/src/com/wakka/rushbridge/BrewInputRouter.java
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key tests/probes/ControlMappingProbe.java
+PASS: public source contains no renamed original payload tests/probes/ControlMappingProbe.java
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key tests/probes/AudioTransitionProbe.java
+PASS: public source contains no renamed original payload tests/probes/AudioTransitionProbe.java
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key tests/probes/LiveInputProbe.java
+PASS: public source contains no renamed original payload tests/probes/LiveInputProbe.java
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key tests/probes/AudioBridgeProbe.java
+PASS: public source contains no renamed original payload tests/probes/AudioBridgeProbe.java
+PASS: public source excludes signing credentials
+PASS: public source excludes payload/key tests/probes/HostBootProbe.java
+PASS: public source contains no renamed original payload tests/probes/HostBootProbe.java
+PASS: public source excludes signing credentials
+PASS: 16 ownership and pause assertions
+PAYLOAD_IMPORT_CHECKS=PASS assertions=56
+SKIP original-guest probes: set RUSH_MARINE_TEST_ZIP to your own compatible game ZIP.
+All selected host checks passed. New Android import/gameplay/audio/device acceptance remains a phone test.

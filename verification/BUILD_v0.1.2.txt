@@ -1,0 +1,20 @@
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): true
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
+Signer #1 certificate DN: CN=Rush Marine Omni Bridge, O=WAKKA, C=US
+Signer #1 certificate SHA-256 digest: 39eee91824b7870d8d58be89c7a4a21fa77fe6b6921fd84b15e01e0834096d11
+Signer #1 certificate SHA-1 digest: 3b465e2b53957fcc46d181b7ddf9f6d28bff14fa
+Signer #1 certificate MD5 digest: cf14ce6572cf3e204268fe2d741e87f7
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 2048
+Signer #1 public key SHA-256 digest: b6757b6c357b25fbde0430346a4cf646387a8a194488803827265a57339cdbfe
+Signer #1 public key SHA-1 digest: 10523e093f3c396a548ca595f0cbb72d20a3ae8a
+Signer #1 public key MD5 digest: 412c89cfea690de5800dd543e8ab2af2
+Built Rush_Marine_Bridge_v0.1.2.apk

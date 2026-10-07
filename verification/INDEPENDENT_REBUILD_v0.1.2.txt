@@ -1,0 +1,2 @@
+PUBLIC_SOURCE_ONLY_REBUILD=PASS
+All non-signature APK entry bytes match official build. Local rebuild uses its own separate signing key.

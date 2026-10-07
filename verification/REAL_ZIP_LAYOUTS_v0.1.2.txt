@@ -1,0 +1,15 @@
+VERIFIED 277700.mif bytes=10066
+VERIFIED 277700/mmassault.mod bytes=320356
+VERIFIED 277700/mmassault.sig bytes=2748
+VERIFIED 277700/mmassaultbacksmall.bar bytes=200931
+VERIFIED 277700/progress.bin bytes=29
+REAL_PAYLOAD_IMPORT=PASS
+IMPORTED_DIRECTORY=/workspace/scratch/8b2e89d1e52c/rush_release/real_payload_smoke/omni/rushmarine-data/verified-v1
+
+VERIFIED 277700.mif bytes=10066
+VERIFIED 277700/mmassault.mod bytes=320356
+VERIFIED 277700/mmassault.sig bytes=2748
+VERIFIED 277700/mmassaultbacksmall.bar bytes=200931
+VERIFIED 277700/progress.bin bytes=29
+REAL_PAYLOAD_IMPORT=PASS
+IMPORTED_DIRECTORY=/workspace/scratch/8b2e89d1e52c/rush_release/real_payload_smoke/helper/rushmarine-data/verified-v1

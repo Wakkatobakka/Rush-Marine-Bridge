@@ -1,0 +1,48 @@
+{
+  "build_input_id": "f82ea545abd19ed24f2001860c1721339426032f8c375fe175d45f7ff2989a4b",
+  "app_version": "0.1.2",
+  "inputs": {
+    "sources": {
+      "app/src/com/wakka/omnirushmarine/GameActivity.java": "2763eb945917bb1b4f0b1ede0d885aecfb70a45bb2e80aa6d692e5b9fcdeec41",
+      "app/src/com/wakka/omnirushmarine/LauncherActivity.java": "0f543459b0fde6b0011d025bca035f1bb4baebcf7a8920724576e30e582404a6",
+      "app/src/com/wakka/omnirushmarine/RushCatalog.java": "24694deedd10aff54cd05bb315b1b3ae7afdf3abf7c17fc38043ea0bd14f8eff",
+      "app/src/com/wakka/omnirushmarine/ToolsActivity.java": "91cfb53edd065d070a91d665e699ed239c369aa3988f1964eae674f3f616bd42",
+      "profiles/rushmarine/src/com/wakka/rushbridge/BrewBackend.java": "c3d41cf9ef18e99aae35cd9d6cf863b070daaa523653dcd038c04a4db3fabc4a",
+      "profiles/rushmarine/src/com/wakka/rushbridge/BrewInputRouter.java": "b45ad268b8e4da644e600bab997a7d29fbd57015566cdbce6509b0bf18650318",
+      "profiles/rushmarine/src/com/wakka/rushbridge/BrewPayload.java": "d1b92e26eae2184afbba8600014a05b4287f6a48cd316c7861ec3a1eeb6f1c13",
+      "profiles/rushmarine/src/com/wakka/rushbridge/RushColors.java": "a89b6b1d0b5be5204eeb75b306162a147f9523e30d25d36b53444fce2a856803",
+      "profiles/rushmarine/src/com/wakka/rushbridge/RushControls.java": "321b965ee016d9a5b0e874ef9fea19d4a69d6b6fb75da9dc036ad644ed0499f9",
+      "profiles/rushmarine/src/com/wakka/rushbridge/VerifiedZipStore.java": "2d051ea72dae7654f51e531d7aaca270a0751979f4acf20f85fa53d8ad4462fc",
+      "runtime/rushmarine/src/com/wakka/rushbridge/BrewSurfaceView.java": "3b4807ae73c4beb73e9fd6b6e2f4b3ba2e6c466a9a5bada99ff73c6744097bd6",
+      "runtime/rushmarine/src/com/wakka/rushbridge/RuntimeRunner.java": "22d1af8a165c22d24f5d7b109ec288dff51863d913f3e7e391495b1991cd3c79",
+      "runtime/rushmarine/src/com/wakka/rushbridge/Ui.java": "29304b50e905e699048a6d506070c5f610aa10a55a5226e322557541773e6a39",
+      "runtime/rushmarine/src/com/wakka/rushbridge/VaultActivity.java": "c79a890110df39afe0b934654bec54f141087e9172c4cb0c8c191e00c994cb77",
+      "runtime/rushmarine/src/com/wakka/rushbridge/runtime/BrewRuntime.java": "be3c21d2b70e1935a9eb5ccab9564c82862e18517ccf8291bf10830542e29721",
+      "shared/src/com/wakka/bridge/BridgeBackend.java": "3bd3ffeb6e4da4f300f905981fd877eb91922e1c17e1b26e92616abe360540da",
+      "shared/src/com/wakka/bridge/BridgeGameActivity.java": "5a858cfc800699a37b43dda97a0c24c4df04945c5642fc17f4b1d7305e7aa857",
+      "shared/src/com/wakka/bridge/BridgeLauncherActivity.java": "94003d794b2b5b77602fecf76b77cfe1e3a795d7fccd2ba563dfdfe56372bb1f",
+      "shared/src/com/wakka/bridge/BridgeReportActivity.java": "1c7e3613e57c2c72439fb9388bf34f4c9bd80602d5718b5bfe3553aa460bba0a",
+      "shared/src/com/wakka/bridge/BridgeToolsActivity.java": "e5ee8c042dc193115405474c5412a3c4f003177110ae71b08811c075435368df",
+      "shared/src/com/wakka/bridge/BridgeUi.java": "72aa65e512dbf9b0797040d7c67a2abc076ef90a96b2ade5ad90cf90690768f6",
+      "shared/src/com/wakka/bridge/GameSpec.java": "187ac36c2eb51a0178c318f01a65d3ba08272f62365da5a443c770579eb8e279",
+      "shared/src/com/wakka/bridge/InputLatch.java": "75ec22c4b22dc2d19e5e69bc4053e5397b56b00639b0fee2c05e224c5716de85",
+      "shared/src/com/wakka/bridge/KeypadView.java": "1a1419fdee48d0df015e08221285ba6f47702e85cf22264b33482a39e74c2ff4",
+      "shared/src/com/wakka/bridge/ReportProvider.java": "321e6b7583969ecd7ac16f2677e1bcb101a54e79e5e3a5b61bf30a3954e78d31",
+      "shared/src/com/wakka/bridge/ReportStore.java": "691bc6f9ccf1795d05a390b2a9dc80f934f77f9e53ed62142756d7f9230dfd6c",
+      "shared/src/com/wakka/bridge/SessionGate.java": "783f61eaf8c6886a176bef5db55f33de2dfaa666a3db3fd0839b0b00cb0d841d"
+    },
+    "manifest_sha256": "4576880c088f499109e8bbf587375b316b4d092ee81c9f58585969a13f1198a8",
+    "project_sha256": "39d5d4abd642066c54fe48c858b0e9268ea0b0248d6023eede937a921209f407",
+    "payloads": {},
+    "resources": {
+      "app/res/drawable-nodpi/rush_icon.png": "a841afb423f2f5d042960addc2e12fcf0abdf00c6657963f0d445537d958d912",
+      "app/res/drawable-nodpi/rush_logo.png": "3921d86f948066b81b31bdf6cdd2a6bc43e30af27c0d14b18f62568c755d50cd",
+      "app/res/values/strings.xml": "8b8450d471fba6cb0163a0542073e656803f70e8b53cc2847ad61f6b8e92b961",
+      "app/res/values/styles.xml": "e4b0daced49bc6dff4fad6bc6772e4cb7132378ecb1dd9afc5d18187edd6f85f"
+    },
+    "assets": {
+      "app/assets/art/rush_icon.png": "a841afb423f2f5d042960addc2e12fcf0abdf00c6657963f0d445537d958d912",
+      "app/assets/art/rush_logo.png": "3921d86f948066b81b31bdf6cdd2a6bc43e30af27c0d14b18f62568c755d50cd"
+    }
+  }
+}

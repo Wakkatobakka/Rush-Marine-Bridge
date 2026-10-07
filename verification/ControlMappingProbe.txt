@@ -1,0 +1,13 @@
+BASE x=53 y=92
+UP code=0xE031 dx=0 dy=-11 PASS
+DOWN code=0xE032 dx=0 dy=12 PASS
+LEFT code=0xE033 dx=-13 dy=0 PASS
+RIGHT code=0xE034 dx=12 dy=0 PASS
+UP_LEFT code=0xE022 dx=-13 dy=-11 PASS
+UP_RIGHT code=0xE024 dx=12 dy=-11 PASS
+DOWN_LEFT code=0xE028 dx=-13 dy=12 PASS
+DOWN_RIGHT code=0xE02A dx=12 dy=12 PASS
+FIRE code=0xE035
+AUTO code=0xE021
+BACK code=0xE030
+CONTROL_MAPPING=PASS

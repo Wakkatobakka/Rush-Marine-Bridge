@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.wakka.omnibridge.rushmarine" android:versionCode="3" android:versionName="0.1.2">
+  <uses-sdk android:minSdkVersion="26" android:targetSdkVersion="35" />
+  <application android:theme="@style/AppTheme" android:label="Rush Marine Bridge" android:icon="@drawable/rush_icon" android:allowBackup="false" android:supportsRtl="true">
+    <activity android:name="com.wakka.omnirushmarine.GameActivity" android:screenOrientation="portrait" android:configChanges="orientation|screenSize|keyboardHidden" android:exported="false" />
+    <activity android:name="com.wakka.omnirushmarine.ToolsActivity" android:screenOrientation="portrait" android:exported="false" />
+    <activity android:name="com.wakka.rushbridge.VaultActivity" android:screenOrientation="portrait" android:exported="false" />
+    <activity android:name="com.wakka.omnirushmarine.LauncherActivity" android:screenOrientation="portrait" android:exported="true">
+      <intent-filter><action android:name="android.intent.action.MAIN" /><category android:name="android.intent.category.LAUNCHER" /></intent-filter>
+    </activity>
+    <provider android:name="com.wakka.bridge.ReportProvider" android:authorities="com.wakka.omnibridge.rushmarine.reports" android:exported="false" android:grantUriPermissions="true" />
+  </application>
+</manifest>

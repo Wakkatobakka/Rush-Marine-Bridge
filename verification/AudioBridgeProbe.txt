@@ -1,0 +1,3 @@
+GUEST_IMEDIA_HLE=PASS
+MIDI_PAYLOAD_BRIDGE=PASS
+mediaCreates=1 data=1 play=1 stop=0 resource=0x232A serial=1 unknown=0 live=true fail=null

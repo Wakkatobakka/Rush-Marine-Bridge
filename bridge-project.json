@@ -1,0 +1,19 @@
+{
+  "name": "Rush Marine Bridge",
+  "package": "com.wakka.omnibridge.rushmarine",
+  "version": "0.1.2",
+  "shared_version": "0.1.1",
+  "runtime_baseline": "Rush Marine Bridge 0.0.10",
+  "apk_name": "Rush_Marine_Bridge_v0.1.2.apk",
+  "source_roots": [
+    "shared/src",
+    "profiles/rushmarine/src",
+    "runtime/rushmarine/src",
+    "app/src"
+  ],
+  "payload_jars": [],
+  "resource_package": "com.wakka.rushbridge",
+  "signing_alias": "wakkan-omni-rushmarine",
+  "signing_dn": "CN=Rush Marine Omni Bridge,O=WAKKA,C=US",
+  "release_status": "pre-release / phone validation pending"
+}

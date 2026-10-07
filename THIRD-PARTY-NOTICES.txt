@@ -1,0 +1,21 @@
+RUSH MARINE BRIDGE — THIRD-PARTY NOTICES
+
+Mega Man: Rush Marine and its original game content are Capcom material.
+BREW is Qualcomm's platform. Names/trademarks retain their respective ownership.
+Rush Marine Bridge is an independent compatibility project, not an official
+Capcom or Qualcomm product.
+
+The public bridge APK/source contain no original game MOD/MIF/SIG/BAR/progress
+files, converted game-code payload, or official private update key.
+The README preview includes a labeled screenshot of an earlier physical game
+test to document compatibility. It is not game-data distribution.
+
+The runtime and shared shell are carried from the owner's supplied Rush Marine /
+Wakkan Omni development packages. The original game was supplied as a preserved
+package; the bridge does not claim responsibility for that recovery.
+
+The sonar Wakkan icon and title artwork are original vector/raster bridge assets.
+Android SDK/build tools are external build prerequisites, not bundled here.
+
+No repository-wide license has been selected. Source is offered for inspection;
+no additional license grant is supplied with this release.

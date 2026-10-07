@@ -1,0 +1,15 @@
+{
+  "name": "Rush Marine Bridge",
+  "version": "0.1.2",
+  "version_code": 3,
+  "package": "com.wakka.omnibridge.rushmarine",
+  "apk_sha256": "155ede709b35fd698c2cfd2df4e6894cdc78308707d92cd3cc68e16a88264150",
+  "apk_bytes": 250631,
+  "signer_sha256": "39eee91824b7870d8d58be89c7a4a21fa77fe6b6921fd84b15e01e0834096d11",
+  "same_certificate_as_omni_0_1_0": true,
+  "runtime_baseline": "Rush Marine Bridge 0.0.10",
+  "shared_version": "0.1.1",
+  "release_status": "pre-release",
+  "new_phone_acceptance": false,
+  "checks": "56 ZIP import assertions including Android-style storage alias and payload symlink repair; 16 input ownership/pause assertions; original guest probes against imported files"
+}

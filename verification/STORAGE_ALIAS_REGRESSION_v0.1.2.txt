@@ -1,0 +1,3 @@
+Before fix: reproduced Unsafe game-data storage path from checkedFile using an OS-style alias.
+After fix (full synthetic importer suite including redirected directory repair):
+PAYLOAD_IMPORT_CHECKS=PASS assertions=56

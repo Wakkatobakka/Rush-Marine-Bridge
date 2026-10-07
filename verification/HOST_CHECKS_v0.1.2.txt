@@ -1,0 +1,160 @@
+PASS: preserved runtime/shared source runtime/rushmarine/src/com/wakka/rushbridge/runtime/BrewRuntime.java
+PASS: preserved runtime/shared source runtime/rushmarine/src/com/wakka/rushbridge/BrewSurfaceView.java
+PASS: preserved runtime/shared source runtime/rushmarine/src/com/wakka/rushbridge/Ui.java
+PASS: preserved runtime/shared source shared/src/com/wakka/bridge/BridgeBackend.java
+PASS: preserved runtime/shared source shared/src/com/wakka/bridge/BridgeGameActivity.java
+PASS: preserved runtime/shared source shared/src/com/wakka/bridge/BridgeLauncherActivity.java
+PASS: preserved runtime/shared source shared/src/com/wakka/bridge/BridgeReportActivity.java
+PASS: preserved runtime/shared source shared/src/com/wakka/bridge/BridgeToolsActivity.java
+PASS: preserved runtime/shared source shared/src/com/wakka/bridge/BridgeUi.java
+PASS: preserved runtime/shared source shared/src/com/wakka/bridge/GameSpec.java
+PASS: preserved runtime/shared source shared/src/com/wakka/bridge/InputLatch.java
+PASS: preserved runtime/shared source shared/src/com/wakka/bridge/KeypadView.java
+PASS: preserved runtime/shared source shared/src/com/wakka/bridge/ReportProvider.java
+PASS: preserved runtime/shared source shared/src/com/wakka/bridge/ReportStore.java
+PASS: preserved runtime/shared source shared/src/com/wakka/bridge/SessionGate.java
+PASS: same Omni update package
+PASS: increased versionCode / release version
+PASS: no network or broad-storage permissions
+PASS: private activity com.wakka.omnirushmarine.GameActivity
+PASS: private activity com.wakka.omnirushmarine.ToolsActivity
+PASS: private activity com.wakka.rushbridge.VaultActivity
+PASS: private activity com.wakka.omnirushmarine.LauncherActivity
+PASS: private report provider
+PASS: APK fingerprint app/src/com/wakka/omnirushmarine/GameActivity.java
+PASS: APK fingerprint app/src/com/wakka/omnirushmarine/LauncherActivity.java
+PASS: APK fingerprint app/src/com/wakka/omnirushmarine/RushCatalog.java
+PASS: APK fingerprint app/src/com/wakka/omnirushmarine/ToolsActivity.java
+PASS: APK fingerprint profiles/rushmarine/src/com/wakka/rushbridge/BrewBackend.java
+PASS: APK fingerprint profiles/rushmarine/src/com/wakka/rushbridge/BrewInputRouter.java
+PASS: APK fingerprint profiles/rushmarine/src/com/wakka/rushbridge/BrewPayload.java
+PASS: APK fingerprint profiles/rushmarine/src/com/wakka/rushbridge/RushColors.java
+PASS: APK fingerprint profiles/rushmarine/src/com/wakka/rushbridge/RushControls.java
+PASS: APK fingerprint profiles/rushmarine/src/com/wakka/rushbridge/VerifiedZipStore.java
+PASS: APK fingerprint runtime/rushmarine/src/com/wakka/rushbridge/BrewSurfaceView.java
+PASS: APK fingerprint runtime/rushmarine/src/com/wakka/rushbridge/RuntimeRunner.java
+PASS: APK fingerprint runtime/rushmarine/src/com/wakka/rushbridge/Ui.java
+PASS: APK fingerprint runtime/rushmarine/src/com/wakka/rushbridge/VaultActivity.java
+PASS: APK fingerprint runtime/rushmarine/src/com/wakka/rushbridge/runtime/BrewRuntime.java
+PASS: APK fingerprint shared/src/com/wakka/bridge/BridgeBackend.java
+PASS: APK fingerprint shared/src/com/wakka/bridge/BridgeGameActivity.java
+PASS: APK fingerprint shared/src/com/wakka/bridge/BridgeLauncherActivity.java
+PASS: APK fingerprint shared/src/com/wakka/bridge/BridgeReportActivity.java
+PASS: APK fingerprint shared/src/com/wakka/bridge/BridgeToolsActivity.java
+PASS: APK fingerprint shared/src/com/wakka/bridge/BridgeUi.java
+PASS: APK fingerprint shared/src/com/wakka/bridge/GameSpec.java
+PASS: APK fingerprint shared/src/com/wakka/bridge/InputLatch.java
+PASS: APK fingerprint shared/src/com/wakka/bridge/KeypadView.java
+PASS: APK fingerprint shared/src/com/wakka/bridge/ReportProvider.java
+PASS: APK fingerprint shared/src/com/wakka/bridge/ReportStore.java
+PASS: APK fingerprint shared/src/com/wakka/bridge/SessionGate.java
+PASS: APK fingerprint app/res/drawable-nodpi/rush_icon.png
+PASS: APK fingerprint app/res/drawable-nodpi/rush_logo.png
+PASS: APK fingerprint app/res/values/strings.xml
+PASS: APK fingerprint app/res/values/styles.xml
+PASS: APK fingerprint app/assets/art/rush_icon.png
+PASS: APK fingerprint app/assets/art/rush_logo.png
+PASS: no original game code passed to D8
+PASS: APK manifest/project provenance
+PASS: APK source build identity
+PASS: APK excludes game/signing file AndroidManifest.xml
+PASS: APK contains no renamed original payload AndroidManifest.xml
+PASS: APK excludes game/signing file assets/art/rush_icon.png
+PASS: APK contains no renamed original payload assets/art/rush_icon.png
+PASS: APK excludes game/signing file assets/art/rush_logo.png
+PASS: APK contains no renamed original payload assets/art/rush_logo.png
+PASS: APK excludes game/signing file assets/bridge-build.json
+PASS: APK contains no renamed original payload assets/bridge-build.json
+PASS: APK excludes game/signing file res/drawable-nodpi-v4/rush_icon.png
+PASS: APK contains no renamed original payload res/drawable-nodpi-v4/rush_icon.png
+PASS: APK excludes game/signing file res/drawable-nodpi-v4/rush_logo.png
+PASS: APK contains no renamed original payload res/drawable-nodpi-v4/rush_logo.png
+PASS: APK excludes game/signing file resources.arsc
+PASS: APK contains no renamed original payload resources.arsc
+PASS: APK excludes game/signing file classes.dex
+PASS: APK contains no renamed original payload classes.dex
+PASS: APK excludes game/signing file META-INF/WAKKAN-O.SF
+PASS: APK contains no renamed original payload META-INF/WAKKAN-O.SF
+PASS: APK excludes game/signing file META-INF/WAKKAN-O.RSA
+PASS: APK contains no renamed original payload META-INF/WAKKAN-O.RSA
+PASS: APK excludes game/signing file META-INF/MANIFEST.MF
+PASS: APK contains no renamed original payload META-INF/MANIFEST.MF
+PASS: no embedded BREW data in APK
+PASS: runtime uses verified imported files
+PASS: runtime has no embedded-game fallback
+PASS: single MIDI arbitration retained
+PASS: timer/audio pause gates retained
+PASS: reports/menu do not reboot the guest
+PASS: play readiness verifies imported game data
+PASS: flexible non-scrolling gameplay stage
+PASS: Copy keeps full captured report
+PASS: 16 ownership and pause assertions
+PAYLOAD_IMPORT_CHECKS=PASS assertions=52
+VERIFIED 277700.mif bytes=10066
+VERIFIED 277700/mmassault.mod bytes=320356
+VERIFIED 277700/mmassault.sig bytes=2748
+VERIFIED 277700/mmassaultbacksmall.bar bytes=200931
+VERIFIED 277700/progress.bin bytes=29
+REAL_PAYLOAD_IMPORT=PASS
+IMPORTED_DIRECTORY=<temporary-test-directory>/app-files/rushmarine-data/verified-v1
+VERIFIED 277700.mif bytes=10066
+VERIFIED 277700/mmassault.mod bytes=320356
+VERIFIED 277700/mmassault.sig bytes=2748
+VERIFIED 277700/mmassaultbacksmall.bar bytes=200931
+VERIFIED 277700/progress.bin bytes=29
+REAL_PAYLOAD_IMPORT=PASS
+IMPORTED_DIRECTORY=<temporary-test-directory>/app-files/rushmarine-data/verified-v1
+RUN: GuestSnapshotChecks
+GUEST_SNAPSHOT_NO_RESET=PASS
+GUEST_COALESCED_NATIVE_INPUT=PASS
+GUEST_REPEATED_TRACE_SNAPSHOT=PASS
+
+RUN: HostBootProbe
+  last timer cb    : 0x001131D8
+  timer callbacks  : 6 (221244 steps total)
+  first timer cb   : PASS (36874 steps)
+  bitmap creates   : 4
+  display get/set  : 8 / 14
+  image draws      : 4
+  draw rect calls  : 432
+  bitblt calls     : 0
+  display updates  : 6
+  pixel framebuffer: PASS 128x160 nonblack=20480
+  next boundary    : physical validation of direct diagonals + startup single-MIDI arbitration
+RESULT module=true applet=true start=true progress=true timer=true callbacks=6 rects=432 updates=6 framebuffer=true nonblack=20480 reads=58 steps=297426 deep=null failure=null
+RUN: LiveInputProbe
+PERSISTENT_SESSION=PASS
+STRICT_PNG_DECODE=PASS
+LIVE_KEY_HOLD_RELEASE=PASS
+LIVE_KEY_TAP_COMPAT=PASS
+IDISPLAY_BITBLT=PASS
+LONG_TIMER_RUN=PASS
+steps=9777325 updates=389 bitblt=362 pngDecodes=7 pngFailures=0 keyEvents=4 live=true failure=null
+
+RUN: ControlMappingProbe
+BASE x=53 y=92
+UP code=0xE031 dx=0 dy=-11 PASS
+DOWN code=0xE032 dx=0 dy=12 PASS
+LEFT code=0xE033 dx=-13 dy=0 PASS
+RIGHT code=0xE034 dx=12 dy=0 PASS
+UP_LEFT code=0xE022 dx=-13 dy=-11 PASS
+UP_RIGHT code=0xE024 dx=12 dy=-11 PASS
+DOWN_LEFT code=0xE028 dx=-13 dy=12 PASS
+DOWN_RIGHT code=0xE02A dx=12 dy=12 PASS
+FIRE code=0xE035
+AUTO code=0xE021
+BACK code=0xE030
+CONTROL_MAPPING=PASS
+
+RUN: AudioBridgeProbe
+GUEST_IMEDIA_HLE=PASS
+MIDI_PAYLOAD_BRIDGE=PASS
+mediaCreates=1 data=1 play=1 stop=0 resource=0x232A serial=1 unknown=0 live=true fail=null
+
+RUN: AudioTransitionProbe
+FIRST res=0x232A obj=010110E0 midi=true
+SECOND res=0x2335 obj=010138D4 midi=true
+guestStops=0
+STARTUP_MIDI_OVERLAP_RISK=PASS
+
+All selected host checks passed. New Android import/gameplay/audio/device acceptance remains a phone test.

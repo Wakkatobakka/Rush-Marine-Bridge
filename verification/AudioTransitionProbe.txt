@@ -1,0 +1,4 @@
+FIRST res=0x232A obj=010110E0 midi=true
+SECOND res=0x2335 obj=010138D4 midi=true
+guestStops=0
+STARTUP_MIDI_OVERLAP_RISK=PASS
