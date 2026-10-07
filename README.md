@@ -1,6 +1,7 @@
+
 # Rush Marine Bridge
 
-![Rush Marine Bridge](Rush_Marine_Bridge_GitHub.jpg)
+![Rush Marine Bridge](docs/Rush_Marine_Bridge_GitHub.jpg)
 
 Rush Marine Bridge is an independent Android compatibility bridge for running a user's own compatible copy of **Mega Man: Rush Marine**, the English BREW 1.1.11 / CDM2030 128×160 release, on modern Android hardware.
 
