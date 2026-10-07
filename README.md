@@ -18,7 +18,7 @@ It executes the original game's **ARM/Thumb module** through a Java interpreter 
 4. Select your own compatible preserved BREW game ZIP. Leave it zipped.
 5. After verification succeeds, tap **ENTER RUSH MARINE**.
 
-The supported original archive is commonly named `Mega-Man-Rush-Marine_BREW_EN_Capcom-1111.zip`. The name is only a hint: the five required files must match the supported sizes and SHA-256 hashes.
+The supported original archive is commonly named `Mega-Man-Rush-Marine_BREW_EN_Capcom-1111.zip`. The archive filename does not need to match exactly; Rush Marine Bridge verifies the required game files by their expected sizes and SHA-256 hashes.
 
 The prepared Rush Marine game-data ZIP from Wakkan Omni Player is also accepted. Import is performed locally on the phone. **No original game files are included in the APK or this repository.** No PC conversion is needed for an already-compatible ZIP.
 
