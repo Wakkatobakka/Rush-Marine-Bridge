@@ -1,18 +1,48 @@
 # Rush Marine Bridge
 
-![Rush Marine Bridge — BREW compatibility on modern Android](docs/Rush_Marine_Bridge_GitHub.jpg)
+![Rush Marine Bridge](Rush_Marine_Bridge_GitHub.jpg)
 
-Rush Marine Bridge is an independent Android compatibility bridge for running a user's own compatible copy of **Mega Man: Rush Marine**, the English **BREW 1.1.11 / CDM2030 128×160** release.
+Rush Marine Bridge is an independent Android compatibility bridge for running a user's own compatible copy of **Mega Man: Rush Marine**, the English BREW 1.1.11 / CDM2030 128×160 release, on modern Android hardware.
 
-It executes the original game's **ARM/Thumb module** through a Java interpreter and supplies the BREW services that this title uses. The original game drives the gameplay.
-
-**Current release:** v0.1.2 — pre-release  
-**Android:** 8.0 or newer (minimum API 26; device testing has been on S25 Ultra / Android 16)  
+**Current public baseline:** v0.1.2 — pre-release  
+**Android:** 8.0 or newer  
 **Package:** `com.wakka.omnibridge.rushmarine`
+
+## Current status
+
+Rush Marine Bridge keeps the original game doing the gameplay and rebuilds the BREW phone environment it expects around it.
+
+The current release has been tested on a Samsung Galaxy S25 Ultra / Android 16 with the game booting and running with rendering, audio, touch controls, and runtime report export working in the portions tested.
+
+Saving progress across fresh app launches is not finished yet, and this is still a pre-release.
+
+This repository contains the bridge/runtime source and build-support material only. **No Mega Man: Rush Marine game files are included.**
+
+## Why Rush Marine Bridge exists
+
+Dirge Bridge, DeadShot Bridge, and FFVII Snowboarding Bridge were about getting old DoJa games running on modern Android.
+
+Rush Marine is the same basic idea aimed at **BREW** instead.
+
+The original game already exists. The problem is that it was built for a phone environment that modern Android does not provide. Rush Marine Bridge rebuilds that missing layer so the preserved game can run on a modern phone.
+
+This is my first public BREW bridge.
+
+## What works
+
+- Original game logic running through the bridge
+- Original 128×160 BREW game presentation
+- Local user-supplied game-data import
+- Exact game-file size and SHA-256 verification
+- Touch controls for movement and game actions
+- Original phone-key input support
+- Game audio
+- Runtime diagnostics and report export
+- Offline play after successful import
 
 ## Play it
 
-1. Download `Rush_Marine_Bridge_v0.1.2.apk` from [Releases](https://github.com/Wakkatobakka/Rush-Marine-Bridge/releases).
+1. Download `Rush_Marine_Bridge_v0.1.2.apk` from **Releases**.
 2. Install it on your Android phone.
 3. Open Rush Marine Bridge and tap **IMPORT RUSH MARINE ZIP**.
 4. Select your own compatible preserved BREW game ZIP. Leave it zipped.
@@ -20,85 +50,34 @@ It executes the original game's **ARM/Thumb module** through a Java interpreter 
 
 The supported original archive is commonly named `Mega-Man-Rush-Marine_BREW_EN_Capcom-1111.zip`. The archive filename does not need to match exactly; Rush Marine Bridge verifies the required game files by their expected sizes and SHA-256 hashes.
 
-The prepared Rush Marine game-data ZIP from Wakkan Omni Player is also accepted. Import is performed locally on the phone. **No original game files are included in the APK or this repository.** No PC conversion is needed for an already-compatible ZIP.
+If you only have the extracted game files, the optional **Game Data ZIP Helper** included with the release can package them locally into the format Rush Marine Bridge expects.
 
-If you only have extracted game files, the optional **Game Data ZIP Helper** in the release packages them locally. See [game-data instructions](docs/GAME_DATA.md).
+## Game data
 
-## Why Rush Marine Bridge exists
+Rush Marine Bridge does not include or download the original game.
 
-Dirge, DeadShot, and FFVII Snowboarding were about making old DoJa games practical to play on modern Android. Rush Marine carries that bridge work into BREW.
+Import is performed locally on the phone, and the bridge verifies the required game files before allowing them to run.
 
-The starting point was a preserved feature-phone package. Getting that package onto a modern phone meant making its original ARM instructions execute, supplying the phone services it expected, recovering its image and audio paths, and working out what its keypad events actually did.
+See [`GAME_DATA.md`](GAME_DATA.md) for the supported file set and verification details.
 
-This was developed through repeated chat-based AI iterations and testing on my phone. The reports and recordings mattered: things that looked correct on the host still broke on Android, and several assumed control mappings turned out to be wrong in real gameplay.
+## Known limit
 
-The working BREW runtime was then brought into the shared Wakkan/Omni bridge structure: a familiar front door, a larger game view, compact controls, and readable reports. This standalone public release adds local game-data import while retaining that baseline.
+**Save persistence across fresh app launches is not finished yet.**
 
-The original game and its preservation are separate from my bridge work. My aim here is to make the preserved game usable on modern Android.
+The bridge is still a pre-release, so later-game issues may also exist outside the portions tested so far.
 
-## What the bridge provides
+## Project docs
 
-- Original 128×160 game framebuffer, scaled without cropping
-- Original ARM/Thumb guest execution and the title's measured BREW service calls
-- Eight-way touch movement using the actual dedicated diagonal keys
-- **FIRE / OK**, explicit **AUTO / 0**, and guest **BACK**
-- Original numeric phone keypad reference layout
-- MIDI/QCP audio request handling; QCP playback depends on the device decoder
-- Pause/resume and a live session retained across bridge menu/report navigation
-- Readable diagnostics, full captured report copy/share/export
-- Verified local ZIP import and offline play after import
+- [`ARCHITECTURE.md`](ARCHITECTURE.md) — how the bridge is put together
+- [`BUILDING.md`](BUILDING.md) — building the Android app
+- [`DEVELOPMENT_HISTORY.md`](DEVELOPMENT_HISTORY.md) — project history
+- [`GAME_DATA.md`](GAME_DATA.md) — supported game-data requirements
+- [`MIGRATION_NOTES.md`](MIGRATION_NOTES.md) — bridge migration notes
 
-## Status and known limits
+## Scope and affiliation
 
-**Pre-release.** The original BREW runtime has physical S25 Ultra / Android 16 gameplay evidence. v0.1.1 phone testing exposed a storage-path rejection during import. v0.1.2 fixes the reproduced storage-alias case; successful phone import and gameplay on this build remain pending.
+Rush Marine Bridge is an unofficial preservation/compatibility project. It is not affiliated with or endorsed by Capcom or Qualcomm.
 
-- **Progress saving between app restarts is not implemented.** The supplied progress baseline is read at a fresh boot. Returning from the bridge menu or reports resumes the live session while the app process remains alive.
-- A complete start-to-finish playthrough has not been verified.
-- QCP sound-effect playback is device dependent; every audio resource has not been individually device-validated.
-- Only the exact supported Rush Marine data set is accepted. This is a title-specific runtime, not a claim of general BREW game support.
-- Unverified raw soft-key, `*`, and `#` slots are inert.
+Mega Man and related game content belong to their respective rights holders.
 
-See [verification](verification/VERIFICATION_v0.1.2.md) for the separation between historical phone evidence and current host tests.
-
-## Updating from Rush Marine Omni
-
-v0.1.2 keeps the Omni v0.1.0 package and official update certificate, and uses `versionCode` 3. It is designed to install over Omni v0.1.0 or Bridge v0.1.1. The displayed app name changes to **Rush Marine Bridge**.
-
-The game is now user-supplied, so import your compatible game ZIP once after the update. The older `com.wakka.rushbridge` app is a separate installation.
-
-## Controls
-
-| Control | Native behavior |
-| --- | --- |
-| Touch pad | Eight directions; diagonals use dedicated 1/3/7/9 handset keys |
-| FIRE / OK | Fire while held; confirm in menus |
-| AUTO / 0 | Toggle auto-fire on an explicit tap |
-| BACK | Original game's back/pause/menu action |
-| Toolbar Pause | Pause/resume the host session |
-| Toolbar Keypad | Switch between custom controls and original numeric keypad |
-| Toolbar Report | Open readable reports without restarting the guest |
-| Android Back / Menu | Return to the bridge; retain the live session |
-
-## Repository layout
-
-- `app/` — standalone launcher, manifest and original bridge artwork
-- `shared/` — retained Wakkan bridge shell 0.1.1
-- `profiles/rushmarine/` — controls, session adapter and verified game-data import
-- `runtime/rushmarine/` — original BREW interpreter/HLE and Android rendering/audio host
-- `payload-builder/` — optional local ZIP helper for extracted game files
-- `tests/` — import-policy, input-ownership and original-guest probes
-- `tools/` — offline APK build and release checks
-- `verification/` — public verification summaries and selected host receipts
-- `docs/` — build, game-data, architecture, development history and release notes
-
-See [BUILDING.md](docs/BUILDING.md). The official update key is private. A local source build creates its own signing identity and cannot update an official APK with a different certificate.
-
-## Credits and source
-
-Bridge direction, iteration, integration and phone testing: **Wakkatobakka**.
-
-Original game: **Capcom**. Original platform: **Qualcomm BREW**. The development input was an owner-supplied preserved English BREW package; this release does not claim to have recovered the original game. No individual recovery attribution is established by the supplied package, so none is invented here.
-
-Rush Marine Bridge is independent and is not affiliated with or endorsed by Capcom or Qualcomm. See [third-party notices](THIRD-PARTY-NOTICES.txt).
-
-No repository-wide license has been selected. Source is published for inspection; this release supplies no additional license grant.
+No repository-wide license has been selected yet.
