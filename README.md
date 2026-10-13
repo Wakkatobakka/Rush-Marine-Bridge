@@ -59,7 +59,7 @@ Rush Marine Bridge does not include or download the original game.
 
 Import is performed locally on the phone, and the bridge verifies the required game files before allowing them to run.
 
-See [`GAME_DATA.md`](GAME_DATA.md) for the supported file set and verification details.
+See [GAME_DATA.md](docs/GAME_DATA.md) for the supported file set and verification details.
 
 ## Known limit
 
@@ -69,11 +69,11 @@ The bridge is still a pre-release, so later-game issues may also exist outside t
 
 ## Project docs
 
-- [`ARCHITECTURE.md`](ARCHITECTURE.md) — how the bridge is put together
-- [`BUILDING.md`](BUILDING.md) — building the Android app
-- [`DEVELOPMENT_HISTORY.md`](DEVELOPMENT_HISTORY.md) — project history
-- [`GAME_DATA.md`](GAME_DATA.md) — supported game-data requirements
-- [`MIGRATION_NOTES.md`](MIGRATION_NOTES.md) — bridge migration notes
+- [ARCHITECTURE.md](docs/ARCHITECTURE.md) — how the bridge is put together
+- [BUILDING.md](docs/BUILDING.md) — building the Android app
+- [DEVELOPMENT_HISTORY.md](docs/DEVELOPMENT_HISTORY.md) — project history
+- [GAME_DATA.md](docs/GAME_DATA.md) — supported game-data requirements
+- [MIGRATION_NOTES.md](docs/MIGRATION_NOTES.md) — bridge migration notes
 
 ## Scope and affiliation
 
