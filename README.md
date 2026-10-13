@@ -43,15 +43,14 @@ This is my first public BREW bridge.
 
 ## Play it
 
-1. Download `Rush_Marine_Bridge_v0.1.2.apk` from **Releases**.
-2. Install it on your Android phone.
-3. Open Rush Marine Bridge and tap **IMPORT RUSH MARINE ZIP**.
-4. Select your own compatible preserved BREW game ZIP. Leave it zipped.
-5. After verification succeeds, tap **ENTER RUSH MARINE**.
+1. Download the [Rush Marine Bridge APK](https://github.com/Wakkatobakka/Rush-Marine-Bridge/releases) and install it on your Android phone.
+2. Get the original [Mega Man: Rush Marine](https://www.myabandonware.com/game/mega-man-rush-marine-vw9) game files. Look for the **English BREW 1.1.11** version.
+3. Open Rush Marine Bridge and tap **IMPORT RUSH MARINE ZIP**. Select the original game ZIP without extracting it.
+4. Once verification succeeds, tap **ENTER RUSH MARINE** and play
 
-The supported original archive is commonly named `Mega-Man-Rush-Marine_BREW_EN_Capcom-1111.zip`. The archive filename does not need to match exactly; Rush Marine Bridge verifies the required game files by their expected sizes and SHA-256 hashes.
+**Already have extracted game files?** The optional Game Data ZIP Helper included in Releases can package them into the required ZIP format.
 
-If you only have the extracted game files, the optional **Game Data ZIP Helper** included with the release can package them locally into the format Rush Marine Bridge expects.
+**Note:** The bridge does not include the original game. It verifies compatible game files locally using their sizes and SHA-256 hashes, regardless of the ZIP filename.
 
 ## Game data
 
