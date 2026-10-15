@@ -1,83 +1,70 @@
 
 # Rush Marine Bridge
 
-![Rush Marine Bridge](docs/Rush_Marine_Bridge_GitHub.jpg)
+![Rush Marine Bridge](Rush_Marine_Bridge_GitHub.jpg)
 
-Rush Marine Bridge is an independent Android compatibility bridge for running a user's own compatible copy of **Mega Man: Rush Marine**, the English BREW 1.1.11 / CDM2030 128×160 release, on modern Android hardware.
+Play the preserved **Mega Man: Rush Marine** mobile game on modern Android with original BREW gameplay, audio, and touchscreen controls.
 
-**Current public baseline:** v0.1.2 — pre-release  
-**Android:** 8.0 or newer  
-**Package:** `com.wakka.omnibridge.rushmarine`
+## Quick Start
 
-## Current status
+1. Open the [v0.1.2 Release](https://github.com/Wakkatobakka/Rush-Marine-Bridge/releases/tag/v0.1.2).
+2. Download and install `Rush_Marine_Bridge_v0.1.2.apk` on your Android device.
+3. Download the compatible **Mega Man: Rush Marine** game ZIP using the link below.
+4. Open Rush Marine Bridge and tap **IMPORT RUSH MARINE ZIP**.
+5. Select your downloaded game ZIP without extracting it.
+6. Once verified, tap **ENTER RUSH MARINE** and play.
 
-Rush Marine Bridge keeps the original game doing the gameplay and rebuilds the BREW phone environment it expects around it.
+**Note:** Original game data is not included. You'll need the compatible English BREW 1.1.11 version.
 
-The current release has been tested on a Samsung Galaxy S25 Ultra / Android 16 with the game booting and running with rendering, audio, touch controls, and runtime report export working in the portions tested.
+## Getting the Game Files
 
-Saving progress across fresh app launches is not finished yet, and this is still a pre-release.
+The original **Mega Man: Rush Marine** mobile game can be found here:
 
-This repository contains the bridge/runtime source and build-support material only. **No Mega Man: Rush Marine game files are included.**
+[Download Mega Man: Rush Marine – My Abandonware](https://www.myabandonware.com/game/mega-man-rush-marine-vw9)
 
-## Why Rush Marine Bridge exists
+Look for the **English BREW 1.1.11** release.
 
-Dirge Bridge, DeadShot Bridge, and FFVII Snowboarding Bridge were about getting old DoJa games running on modern Android.
+Keep the downloaded game ZIP intact. Rush Marine Bridge can import it directly.
 
-Rush Marine is the same basic idea aimed at **BREW** instead.
+### Already Have Extracted Files?
 
-The original game already exists. The problem is that it was built for a phone environment that modern Android does not provide. Rush Marine Bridge rebuilds that missing layer so the preserved game can run on a modern phone.
+The optional `Rush_Marine_Game_Data_Zip_Helper_v0.1.2.zip` is available on the [Releases page](https://github.com/Wakkatobakka/Rush-Marine-Bridge/releases/tag/v0.1.2).
+
+Use it to prepare extracted game files into a compatible import ZIP.
+
+## What Works
+
+- Original Mega Man: Rush Marine gameplay
+- Original 128×160 BREW game presentation
+- Game audio
+- Touchscreen movement and action controls
+- Original phone-key input support
+- Local game-data import
+- Offline gameplay after importing
+- In-app diagnostics and report export
+
+## Known Limitations
+
+**Saving progress across fresh app launches is not finished yet.**
+
+Rush Marine Bridge is still a pre-release. Additional issues may appear in portions of the game that haven't been fully tested.
+
+## Compatibility
+
+Rush Marine Bridge v0.1.2 supports **Android 8.0 or newer**.
+
+Tested on a **Samsung Galaxy S25 Ultra running Android 16**.
+
+Compatibility with other Android devices and versions may vary.
+
+## About This Project
+
+Rush Marine Bridge is an independent compatibility project created to make the preserved BREW version of Mega Man: Rush Marine playable on modern Android devices.
 
 This is my first public BREW bridge.
 
-## What works
-
-- Original game logic running through the bridge
-- Original 128×160 BREW game presentation
-- Local user-supplied game-data import
-- Exact game-file size and SHA-256 verification
-- Touch controls for movement and game actions
-- Original phone-key input support
-- Game audio
-- Runtime diagnostics and report export
-- Offline play after successful import
-
-## Play it
-
-1. Download the [Rush Marine Bridge APK](https://github.com/Wakkatobakka/Rush-Marine-Bridge/releases) and install it on your Android phone.
-2. Get the original [Mega Man: Rush Marine](https://www.myabandonware.com/game/mega-man-rush-marine-vw9) game files. Look for the **English BREW 1.1.11** version.
-3. Open Rush Marine Bridge and tap **IMPORT RUSH MARINE ZIP**. Select the original game ZIP without extracting it.
-4. Once verification succeeds, tap **ENTER RUSH MARINE** and play
-
-**Already have extracted game files?** The optional Game Data ZIP Helper included in Releases can package them into the required ZIP format.
-
-**Note:** The bridge does not include the original game. It verifies compatible game files locally using their sizes and SHA-256 hashes, regardless of the ZIP filename.
-
-## Game data
-
-Rush Marine Bridge does not include or download the original game.
-
-Import is performed locally on the phone, and the bridge verifies the required game files before allowing them to run.
-
-See [GAME_DATA.md](docs/GAME_DATA.md) for the supported file set and verification details.
-
-## Known limit
-
-**Save persistence across fresh app launches is not finished yet.**
-
-The bridge is still a pre-release, so later-game issues may also exist outside the portions tested so far.
-
-## Project docs
-
-- [ARCHITECTURE.md](docs/ARCHITECTURE.md) — how the bridge is put together
-- [BUILDING.md](docs/BUILDING.md) — building the Android app
-- [DEVELOPMENT_HISTORY.md](docs/DEVELOPMENT_HISTORY.md) — project history
-- [GAME_DATA.md](docs/GAME_DATA.md) — supported game-data requirements
-- [MIGRATION_NOTES.md](docs/MIGRATION_NOTES.md) — bridge migration notes
-
-## Scope and affiliation
-
-Rush Marine Bridge is an unofficial preservation/compatibility project. It is not affiliated with or endorsed by Capcom or Qualcomm.
+Rush Marine Bridge is not affiliated with or endorsed by Capcom or Qualcomm.
 
 Mega Man and related game content belong to their respective rights holders.
 
-No repository-wide license has been selected yet.
+Third-party acknowledgments are available in [THIRD-PARTY-NOTICES.txt](THIRD-PARTY-NOTICES.txt).
